@@ -1,3 +1,6 @@
+body {
+    box-sizing: border-box;
+}
 table {
     margin: auto;
 }
@@ -6,4 +9,41 @@ body {
     background-image: url("img/paper.jpg");
 
     font-size: 20px;
+}
+
+
+.td1 {
+    text-align: center;
+}
+
+.td2 {
+    border-bottom: 1px solid #000;
+    position: relative;
+}
+
+.span01 {
+    margin-top: 18px;
+    position: absolute;
+}
+
+.table1 {
+    margin-left: 210px;
+}
+
+.table2 {
+    margin-left: 230px;
+}
+
+.span02 {
+    margin-top: 18px;
+    position: absolute;
+}
+
+.td4 {
+    text-align: center;
+}
+
+.td3 {
+    border-bottom: 1px solid #000;
+    position: relative;
 }
