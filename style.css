@@ -47,3 +47,18 @@ body {
     border-bottom: 1px solid #000;
     position: relative;
 }
+
+.impotent {
+    color: red;
+}
+select {
+    width: 173px;
+}
+
+textarea {
+    width: 170px;
+}
+
+.span {
+    float: top;
+}

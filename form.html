@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<form method="post" action="https://proxy.kp87.ru/send-form.php">
+    <fieldset>
+        <legend>vna2re</legend>
+        <table>
+            <tr>
+                <td>
+                    <input required type="text" name="name" placeholder="Введите имя">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input required type="password" name="pass" placeholder="Введите пароль">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input required min="10" max="20" type="number" name="num" placeholder="Число">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input min="10" max="20" type="file" name="file" accept="image/jpeg">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Вопрос?</p>
+                    <label>
+                        <input type="checkbox" name="+" value="da"> Да?
+                    </label>
+                    <input id="no" type="checkbox" name="-" value="net">
+                    <label for="no">Нет?</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="rad" value="1"> 1
+                    <input type="radio" name="rad" value="2"> 2
+                    <input type="radio" name="rad" value="3"> 3
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="select[]" multiple>
+                        <optgroup label="группа">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </optgroup>
+                        <option value="3">3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="textarea" cols="10" rows="10" placeholder="More text"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="color" name="color">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="date" name="date">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="email" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="tel" name="tel">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="datetime-local" name="loctime">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="submit">
+                    <input type="reset">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <input type="hidden" name="to" value="evd.matvey@mail.ru">
+</form>
+</body>
+</html>
